@@ -1,0 +1,102 @@
+* {
+  margin-bottom: 0;
+}
+body {
+    padding-top: 87.22px;
+ 
+}
+.card, .jcard {
+    border-radius: 1rem!important;
+    transition: transform 0.3s ease-out;
+        
+}
+.card img {
+    border-top-right-radius: 1rem!important;
+    border-top-left-radius: 1rem!important;
+    
+}
+
+.mystyle {
+    background-color: #EB3B3B!important;
+    color: black!important;
+}
+.logo {
+   width: 10%;
+   color: white;
+}
+
+
+.submit-form {
+    margin-top: 89.19px;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color:#FFC107;
+}
+.sendform {
+display: flex;
+align-items: center;
+}
+
+
+/* test text */
+.bg-seting {
+    min-height: 65vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(../background/paralax.jpg)!important;    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+.typewriter h1 {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+      typing 2s steps(30, end),
+      blink-caret 0.5s step-end 2;
+  }
+  @media (max-width: 768px) {
+    .typewriter h1 {
+      font-size: 2.5rem;
+      line-height: 2rem;
+    }
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    1% { border-color: orange }
+    51%, 100% { border-color: orange; animation-timing-function: steps(1, end); } /* After 10 seconds, change the timing function to steps(1, end) to make the border solid */
+  }
+  
+/* test ends */
+/* employers css */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color: #f5f5f5;}
+th {
+  background-color: #4CAF50;
+  color: white;
+}
