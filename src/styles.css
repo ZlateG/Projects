@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* src/styles.css */
+
+.container {
+  /* Customize the container width as per your requirement */
+  max-width: 1200px;
+}
+
+/* Optional: Hide horizontal scrollbar */
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
